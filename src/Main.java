@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String random_num = GenerateRandomString.str;
-        System.out.println("исходное число: " + random_num);
+        System.out.println("Загаданное число: " + random_num);
         ReadWriteFile.addLogGameInfo(random_num);
         boolean round_flag = true;
         int countTry = 1;
