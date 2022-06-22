@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String random_num = GenerateRandomString.str;
-        System.out.println("Загаданное число: " + random_num);
+        System.out.println("Р—Р°РіР°РґР°РЅРЅРѕРµ С‡РёСЃР»Рѕ: " + random_num);
         ReadWriteFile.addLogGameInfo(random_num);
         boolean round_flag = true;
         int countTry = 1;
@@ -18,7 +18,7 @@ public class Main {
             ReadWriteFile.addLogTryInfo(entered_num, bulls + str_Bulls + cows + str_Cow);
             System.out.println(bulls + str_Bulls + cows + str_Cow);
             if (bulls == 4){
-                System.out.println("Вы выйграли");
+                System.out.println("Р’С‹ РІС‹Р№РіСЂР°Р»Рё");
                 ReadWriteFile.addLogWinInfo(String.valueOf(countTry));
                 round_flag = false;
                 }
